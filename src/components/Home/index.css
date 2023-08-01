@@ -1,0 +1,82 @@
+/* Write your CSS code here */
+
+@media screen and (min-width: 768px) {
+  .clothes-that-get-you-container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+  }
+
+  .text-container {
+    margin-right: 10px;
+  }
+
+  .heading {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 40px;
+    width: 400px;
+  }
+  .description {
+    color: #64748b;
+    font-family: 'Roboto';
+    width: 500px;
+  }
+  .shop-now-btn {
+    background-color: #0b69ff;
+    height: 30px;
+    width: 100px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .home-image {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clothes-that-get-you-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-container {
+    text-align: center;
+    order: 1;
+  }
+
+  .heading {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 40px;
+  }
+  .description {
+    color: #64748b;
+    font-family: 'Roboto';
+  }
+  .shop-now-btn {
+    background-color: #0b69ff;
+    height: 30px;
+    width: 100px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .home-image {
+    width: 200px;
+    order: 0;
+  }
+}

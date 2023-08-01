@@ -1,0 +1,161 @@
+/* Write your CSS code here */
+
+@media screen and (min-width: 768px) {
+  .login-container {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  .log-login-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .logo-image {
+    width: 200px;
+    margin-bottom: 40px;
+  }
+  .login-image {
+    height: 200px;
+    width: 300px;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+  .input-box-label {
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .input-box {
+    height: 50px;
+    width: 320px;
+    background-color: #e6f6ff;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    padding-left: 20px;
+  }
+
+  .submit-button {
+    background-color: #0967d2;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .error-message {
+    color: #ff0b37;
+    font-family: 'Roboto';
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-container {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  .log-login-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .logo-image {
+    width: 200px;
+    margin-bottom: 40px;
+  }
+  .login-image {
+    height: 200px;
+    width: 300px;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+  }
+  .input-box-label {
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .input-box {
+    height: 50px;
+    width: 320px;
+    background-color: #e6f6ff;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    padding-left: 20px;
+  }
+
+  .submit-button {
+    background-color: #0967d2;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .error-message {
+    color: #ff0b37;
+    font-family: 'Roboto';
+    font-size: 10px;
+  }
+}

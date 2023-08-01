@@ -1,0 +1,119 @@
+/* Write your CSS code here */
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 10px;
+  }
+
+  .mobile-view-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .large-container-home-products-cart-logout-btn-container {
+    display: flex;
+  }
+
+  .menu-items {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px;
+  }
+
+  .nav-items {
+    margin: 10px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #64748b;
+  }
+
+  .logout-btn {
+    margin-top: 30px;
+    background-color: #0b69ff;
+    background-size: cover;
+    font-family: 'Roboto';
+    padding: 6px;
+    color: #ffffff;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    margin-left: 20px;
+  }
+
+  .website-log {
+    width: 150px;
+  }
+  .logout-icon-button {
+    display: none;
+  }
+
+  .logout-icon {
+    display: none;
+  }
+  .home-icon {
+    display: none;
+  }
+  .products-icon {
+    display: none;
+  }
+  .car-icon {
+    display: none;
+  }
+  .home-cart-products-icon-container {
+    list-style-type: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-view-container {
+    padding: 10px;
+  }
+  .mobile-header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .website-log {
+    width: 100px;
+  }
+  .logout-icon-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .logout-icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .home-cart-products-icon-container {
+    background-color: #e6f6ff;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    list-style-type: none;
+  }
+
+  .home-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .products-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .car-icon {
+    height: 25px;
+    width: 25px;
+  }
+  .large-container-home-products-cart-logout-btn-container {
+    display: none;
+  }
+}
